@@ -1,6 +1,8 @@
 Some possible things to use in my shiny app
 
 http://www.ats.ucla.edu/stat/r/faq/smooths.htm
-I can move a slider to choose types of fit: linear, locally weighted, linear/quadratic, second order polynomial
-And perhaps offer 2 or 3 different data set choices
-The point is that the shiny app allows interactive use of different smooths to learn how they may or may not fit the data. As the end of this blog article states, using smooths makes it easy to see overall trends and explore visually how different models fit the data.
+1) I can move a slider to choose types of fit: linear, locally weighted, linear/quadratic, second order polynomial
+2) And perhaps offer 2 or 3 different data set choices
+3) Use levels from 3rd variable to fit separate smooths. Choice of more than one variable?
+
+The point is that the shiny app allows interactive use of different smooths to learn how they may or may not fit the data. As the end of this blog article states, 'using smooths makes it easy to see overall trends and explore visually how different models fit the data.'

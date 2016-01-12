@@ -1,0 +1,7 @@
+name: testapp
+account: dataframes
+server: shinyapps.io
+appId: 77657
+bundleId: 348135
+url: https://dataframes.shinyapps.io/testapp/
+when: 1452603354.54321
