@@ -1,2 +1,3 @@
 # DataProducts_ShinyApp
-my shiny files for Coursera data products course project
+Create a shiny app and deploy to Rstudio hosting for course project
+
