@@ -15,3 +15,9 @@ The point is that the shiny app allows interactive use of different smooths to l
 2 is done. bit of trouble with switch returning all 3 args to the ggplot function. used List() + aes_string() to pass all parameters into ggplot
 
 Still have to select a proper group of datasets for scatterplot and smooth
+
+
+A wikipedia article https://en.wikipedia.org/wiki/Scatterplot_smoothing says:
+In statistics, several scatterplot smoothing methods are available to fit a function through the points of a scatterplot to best represent the relationship between the variables.
+Scatterplots may be smoothed by fitting a line to the data points in a diagram. This line attempts to display the non-random component of the association between the variables in a 2D scatter plot. Smoothing attempts to separate the non-random behaviour in the data from the random fluctuations, removing or reducing these fluctuations, and allows prediction of the response based value of the explanatory variable.
+Smoothing is normally accomplished by using any one of the techniques mentioned below.
