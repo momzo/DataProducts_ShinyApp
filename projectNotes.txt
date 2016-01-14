@@ -21,3 +21,8 @@ A wikipedia article https://en.wikipedia.org/wiki/Scatterplot_smoothing says:
 In statistics, several scatterplot smoothing methods are available to fit a function through the points of a scatterplot to best represent the relationship between the variables.
 Scatterplots may be smoothed by fitting a line to the data points in a diagram. This line attempts to display the non-random component of the association between the variables in a 2D scatter plot. Smoothing attempts to separate the non-random behaviour in the data from the random fluctuations, removing or reducing these fluctuations, and allows prediction of the response based value of the explanatory variable.
 Smoothing is normally accomplished by using any one of the techniques mentioned below.
+
+1-13-16: added a couple of small embellishments including descriptive text about dataset under the plot and some basic directions in the side panel.
+My simple smooth selection technique is not really that relevant with most of the datasets
+In many cases it would probably be more appropriate to modify the 'formula' argument
+In a couple of cases, a third variable could be used for aes:color argument and then more than 1 fit would be obtained. Sex for heightweight is a good place to use this.

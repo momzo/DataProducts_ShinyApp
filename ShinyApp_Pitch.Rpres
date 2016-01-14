@@ -1,0 +1,30 @@
+ShinyApp Pitch
+========================================================
+author: Bill Delaney
+date: January 14, 2016
+
+Demonstration of using smoothing with best fits on scatterplots
+
+Purpose of this interactive demo
+========================================================
+
+We often want to see a 'best fit' in our scatterplot of data to see a trend or pattern. This Shiny app demo allows the user to experiment with a couple of options. Hopefully the user will learn more about using the options, but also will glean that some datasets may benefit from experimenting with different types of statistical smoothing.
+
+The interactive options in the demo are:
+- Ability to select from five datasets
+- Selection of a smoothing algorithm
+- Choosing whether or not to use a third variable for separate plot fittings
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
