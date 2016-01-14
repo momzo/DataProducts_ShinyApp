@@ -51,9 +51,12 @@ ui <- fluidPage(
             withTags({
                 div(class="header", checked=NA,
                     p("Try out different smooths with the datasets to learn more about your data."),
-                    p("Want to learn more about smooths in ggplot?"),
-                    a(href="http://www.ats.ucla.edu/stat/r/faq/smooths.htm", "Click Here!")
-                )
+                    p("Learn more about smooths in ggplot"),
+                    a(href="http://www.ats.ucla.edu/stat/r/faq/smooths.htm", "Click Here!"),
+                    br(""),
+                    p("App.R code in Github"),
+                    a(href="https://github.com/bdelaney/DataProducts_ShinyApp/blob/master/smoothScatter/app.R", "Github")
+                    )
             })
         ),
         mainPanel(
