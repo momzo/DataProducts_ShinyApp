@@ -1,7 +1,8 @@
 name: smoothScatter
 account: dataframes
 server: shinyapps.io
-appId: 77680
-bundleId: 348254
+bundleId: 349491
 url: https://dataframes.shinyapps.io/smoothScatter/
-when: 1452617485.84655
+when: 1452775895.67298
+asMultiple: FALSE
+asStatic: FALSE
